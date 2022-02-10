@@ -18,7 +18,7 @@ pipeline {
                 }
             }
         }
-        stage("build image") {
+        stage("build images") {
             steps {
                 script {
                     echo "building image"
